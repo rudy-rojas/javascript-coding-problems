@@ -13,26 +13,26 @@ class CountDuplicateCharacters {
         const length = this.text.length;
         for (let i = 0; i < length; i++) {
             if (!this.isThere(this.text.charAt(i), arrayUniqueCharacters)) {
-                arrayUniqueCharacters.push( this.text.charAt(i) );    
+                arrayUniqueCharacters.push(this.text.charAt(i));
             }
         }
-        const arrayCountingCharacters = new Array( arrayUniqueCharacters.length )
-        for(let i = 0; i < arrayUniqueCharacters.length; i++) {
+        const arrayCountingCharacters = new Array(arrayUniqueCharacters.length)
+        for (let i = 0; i < arrayUniqueCharacters.length; i++) {
             const currentChar = arrayUniqueCharacters[i];
             arrayCountingCharacters[i] = this.getTotalRepetition(currentChar);
         }
 
         let answer = '';
-        for(let i = 0; i < arrayUniqueCharacters.length; i++) {
+        for (let i = 0; i < arrayUniqueCharacters.length; i++) {
             answer += arrayUniqueCharacters[i] + "=" + arrayCountingCharacters[i] + ", "
-        } 
+        }
         console.log(answer)
     }
 
     getTotalRepetition(char) {
         let count = 0;
-        for(let i = 0; i < this.text.length; i++) {
-            if(char == this.text.charAt(i)) {
+        for (let i = 0; i < this.text.length; i++) {
+            if (char == this.text.charAt(i)) {
                 count++;
             }
         }
@@ -43,7 +43,7 @@ class CountDuplicateCharacters {
         let i = 0;
         let found = false;
         while (i < array.length && !found) {
-            if( char == array[i]) {
+            if (char == array[i]) {
                 found = true;
             }
             i++;
