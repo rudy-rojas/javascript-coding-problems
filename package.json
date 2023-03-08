@@ -1,0 +1,20 @@
+{
+  "name": "javascript-coding-problems",
+  "version": "1.0.0",
+  "description": "Improving my Java programming skills by solving real world coding challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage=false --verbose"
+  },
+  "keywords": [
+    "javascript",
+    "challenges",
+    "coding",
+    "problems"
+  ],
+  "author": "Rudy Rojas <rudy.rs1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
