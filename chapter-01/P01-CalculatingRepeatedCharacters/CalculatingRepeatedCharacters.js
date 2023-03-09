@@ -1,5 +1,4 @@
 const calculatingRepeatedCharacters = (str) => {
-const hola = 'hello world';
   let copyStr = str.split('');
   let result = {};
   for (let char of copyStr) {
