@@ -1,4 +1,4 @@
-const removeCharacters = require('./RemoveCharacters.js');
+const removeCharacters = require('./RemoveGivenCharacters.js');
 
 const testing = (str, charToRemove, result) => {
   it(`Removing ${charToRemove} on ${str} should be ${result}`, () => {
