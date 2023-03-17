@@ -12,4 +12,5 @@ describe(`Removing duplicate characters Test`, () => {
   testing('Javascript is very funny!', 'Javscript eyfun!');
   testing('', '');
   testing('WWWWWWWWWWWWWWWWW', 'W');
+  testing('AF BC EE 8A A8 CB','AF BCE8')
 });
