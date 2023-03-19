@@ -43,7 +43,22 @@ const str = `My high school, the Illinois Mathematics and Science Academy, showe
 </td>
 </tr>
 <!-- -->
+<tr>
+<td>
 
+```javascript
+const str = '';
+```
+
+</td>
+<td>
+
+```javascript
+{character: '', ocurrences: 0}
+```
+
+</td>
+</tr>
 </table>
 
 _<strong>Credits:</strong> Exercise taken from the book <strong>'Java Coding Problems'</strong> by author <strong>'Anghel Leonard' (Packt)</strong>, Chapter 01, Problem 14_

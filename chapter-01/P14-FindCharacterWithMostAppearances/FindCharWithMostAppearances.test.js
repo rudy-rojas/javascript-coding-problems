@@ -12,4 +12,5 @@ describe(`Find character with most appearances Test`, () => {
     `My high school, the Illinois Mathematics and Science Academy, showed me that anything is possible and that you're never too young to think big. At 15, I worked as a computer programmer at the Fermi National Accelerator Laboratory, or Fermilab. After graduating, I attended Stanford for a degree in economics and computer science.`,
     { character: 'e', ocurrences: 29 }
   );
+  testing('', { character: '', ocurrences: 0 });
 });
