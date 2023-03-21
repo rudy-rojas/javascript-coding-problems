@@ -48,7 +48,7 @@ const search = 'the';
 <td>
 
 ```javascript
-5
+11
 ```
 
 </td>
