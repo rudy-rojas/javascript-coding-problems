@@ -4,23 +4,33 @@ const cleanString = (str) =>
 const isAnagram = (str1, str2) => {
   let sentence01 = cleanString(str1);
   let sentence02 = cleanString(str2);
-  let arrSentence02 = sentence02.split('');
-  let i = 0;
+  console.log(sentence01)
+  console.log(sentence02)
+  
   let result = true;
-  let j = 0;
-  while (i < sentence01.length && result) {
-    j = 0;
-    while (j < sentence02.length && result) {
-      if (sentence01.charAt(i) == sentence02(j)) {
-        arrSentence02.splice(j, 1);
-      } else {
-        j++;
+  if (sentence01.length != sentence02.length) {
+    result = false;
+  } else {
+    let arraySentence02 = sentence02.split('');
+    let i = 0;
+    let j = 0;
+    let founded = false;
+    while (i < sentence01.length && result) {
+      j = 0;
+      founded = false;
+      while (j < arraySentence02.length && !founded) {
+        if (sentence01.charAt(i) == arraySentence02[j]) {
+          arraySentence02.splice(j, 1);
+          founded = true;
+        } else {
+          j++;
+        }
       }
+      if (!founded) {
+        result = false;
+      }
+      i++;
     }
-    if (j == sentence02.length) {
-      result = false;
-    }
-    i++;
   }
 
   return result;
