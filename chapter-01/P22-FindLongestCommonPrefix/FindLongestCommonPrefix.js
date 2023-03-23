@@ -21,5 +21,7 @@ const findPrefix = (array) => {
   return prefix;
 };
 
- const input = ['ab', 'abc', 'abcd', 'abcde'];
-console.log(findPrefix(input));
+// const input = ['apple', 'appetite', 'application', 'appendix'];
+// console.log(findPrefix(input));
+
+module.exports = findPrefix;
