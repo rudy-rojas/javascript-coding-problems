@@ -19,7 +19,7 @@ const compareSigned = (value01, value02) => {
 const compareUnsigned = (value01, value02) => {
   let result = 0;
   if (value01 == 0 && value02 > 0) {
-    result = 1;
+    result = -1;
   } else if (value01 > 0 && value02 == 0) {
     result = 1;
   } else if (value01 == 0 && value02 < 0) {
@@ -35,4 +35,4 @@ const compareUnsigned = (value01, value02) => {
   return result;
 };
 
-module.export = {compareSigned, compareUnsigned};
+module.exports = {compareSigned, compareUnsigned};
