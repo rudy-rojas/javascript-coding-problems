@@ -28,7 +28,7 @@ Division unsigned numA/numB: 0
 Division unsigned numB/numA: 34918432 
 
 MODULO:
----------------------------------------
+--------------------------------------
 Modulo signed numA/NumB: 0 
 Modulo signed numB/NumA: 0
 Modulo unsigned numA/numB: 123 
@@ -62,7 +62,7 @@ Division unsigned numA/numB: 0
 Division unsigned numB/numA: 429496729 
 
 MODULO:
----------------------------------------
+--------------------------------------
 Modulo signed numA/NumB: 0 
 Modulo signed numB/NumA: -1 
 Modulo unsigned numA/numB: 10 
@@ -94,7 +94,7 @@ Division unsigned numA/numB: 10
 Division unsigned numB/numA: 0 
 
 MODULO:
----------------------------------------
+--------------------------------------
 Modulo signed numA/NumB: 0 
 Modulo signed numB/NumA: 1 
 Modulo unsigned numA/numB: 0 
